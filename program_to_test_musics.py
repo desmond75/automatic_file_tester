@@ -32,8 +32,8 @@ def automatic_file_tester(full_path_to_file,number_of_files_to_test, test_time_i
 
 
 
-full_path_to_file = "D://aud/" #Enter your path
-number_of_files_to_test = 9 #You can set this to any number you want to
-test_time_in_seconds = 5 #You can change this to anything you want to make the test time much longer
+# full_path_to_file = "D://aud/" #Enter your path
+# number_of_files_to_test = 9 #You can set this to any number you want to
+# test_time_in_seconds = 5 #You can change this to anything you want to make the test time much longer
 
-automatic_file_tester(full_path_to_file, number_of_files_to_test, test_time_in_seconds)
+# automatic_file_tester(full_path_to_file, number_of_files_to_test, test_time_in_seconds)
