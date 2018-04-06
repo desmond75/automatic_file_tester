@@ -21,7 +21,7 @@ def automatic_file_tester(full_path_to_file,number_of_files_to_test, test_time_i
 
 	    """
 	try:
-		if not os.path.exists(full_path_to_file):
+		if not os.path.exists(full_path_to_file): #Ensures path is valid
 			print('Your path is incorrect')
 		else:
 			for file in islice(os.listdir(full_path_to_file),number_of_files_to_test):#loops through all files in the directory
